@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class User {
    // TODO: some form of ID, going to use Postgres
+    String id;
     String email;
-
     String password;
 }
